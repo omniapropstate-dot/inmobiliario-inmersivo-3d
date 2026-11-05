@@ -1,0 +1,45 @@
+<svg viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono', monospace">
+  <rect x="20" y="20" width="760" height="480" fill="none" stroke="#716a60" stroke-width="2"/>
+
+  <!-- Hall central -->
+  <rect x="340" y="20" width="120" height="480" fill="#1c1815" stroke="#716a60" stroke-width="1"/>
+  <text x="400" y="265" fill="#716a60" font-size="13" letter-spacing="2" text-anchor="middle" transform="rotate(-90 400 265)">HALL / ASCENSORES</text>
+  <rect x="368" y="235" width="26" height="30" fill="none" stroke="#716a60" stroke-width="1.5"/>
+  <rect x="406" y="235" width="26" height="30" fill="none" stroke="#716a60" stroke-width="1.5"/>
+
+  <!-- Unidad A (2 dormitorios) -->
+  <g class="unit" data-unit="A" data-type="a" tabindex="0" role="button" aria-label="Departamento A, 2 dormitorios">
+    <rect x="20" y="20" width="320" height="240" fill="rgba(214,167,86,0.04)" stroke="#d6a756" stroke-width="2"/>
+    <line x1="20" y1="150" x2="230" y2="150" stroke="#716a60" stroke-width="1"/>
+    <line x1="230" y1="20" x2="230" y2="260" stroke="#716a60" stroke-width="1"/>
+    <text x="340" y="150" fill="#f2efe8" font-size="34" font-weight="700" text-anchor="end" dy="0">A</text>
+    <text x="340" y="175" fill="#a79f93" font-size="13" text-anchor="end">72 m² · 2 dorm.</text>
+  </g>
+
+  <!-- Unidad B (1 dormitorio) -->
+  <g class="unit" data-unit="B" data-type="b" tabindex="0" role="button" aria-label="Departamento B, 1 dormitorio">
+    <rect x="460" y="20" width="320" height="240" fill="rgba(214,167,86,0.04)" stroke="#d6a756" stroke-width="2"/>
+    <line x1="460" y1="150" x2="620" y2="150" stroke="#716a60" stroke-width="1"/>
+    <line x1="620" y1="20" x2="620" y2="260" stroke="#716a60" stroke-width="1"/>
+    <text x="460" y="150" fill="#f2efe8" font-size="34" font-weight="700" text-anchor="start" dy="0">B</text>
+    <text x="460" y="175" fill="#a79f93" font-size="13" text-anchor="start">48 m² · 1 dorm.</text>
+  </g>
+
+  <!-- Unidad C (2 dormitorios, espejo de A) -->
+  <g class="unit" data-unit="C" data-type="a" tabindex="0" role="button" aria-label="Departamento C, 2 dormitorios">
+    <rect x="20" y="260" width="320" height="240" fill="rgba(214,167,86,0.04)" stroke="#d6a756" stroke-width="2"/>
+    <line x1="20" y1="370" x2="230" y2="370" stroke="#716a60" stroke-width="1"/>
+    <line x1="230" y1="260" x2="230" y2="500" stroke="#716a60" stroke-width="1"/>
+    <text x="340" y="380" fill="#f2efe8" font-size="34" font-weight="700" text-anchor="end" dy="0">C</text>
+    <text x="340" y="405" fill="#a79f93" font-size="13" text-anchor="end">72 m² · 2 dorm.</text>
+  </g>
+
+  <!-- Unidad D (1 dormitorio, espejo de B) -->
+  <g class="unit" data-unit="D" data-type="b" tabindex="0" role="button" aria-label="Departamento D, 1 dormitorio">
+    <rect x="460" y="260" width="320" height="240" fill="rgba(214,167,86,0.04)" stroke="#d6a756" stroke-width="2"/>
+    <line x1="460" y1="370" x2="620" y2="370" stroke="#716a60" stroke-width="1"/>
+    <line x1="620" y1="260" x2="620" y2="500" stroke="#716a60" stroke-width="1"/>
+    <text x="460" y="380" fill="#f2efe8" font-size="34" font-weight="700" text-anchor="start" dy="0">D</text>
+    <text x="460" y="405" fill="#a79f93" font-size="13" text-anchor="start">48 m² · 1 dorm.</text>
+  </g>
+</svg>

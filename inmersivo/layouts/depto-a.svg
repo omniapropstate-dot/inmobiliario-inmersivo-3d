@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono', monospace">
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#716a60" stroke-width="2"/>
+  <!-- Sala-Comedor -->
+  <rect x="10" y="10" width="220" height="160" fill="rgba(214,167,86,0.05)" stroke="#d6a756" stroke-width="1.5"/>
+  <text x="20" y="30" fill="#f2efe8" font-size="13">Sala-Comedor</text>
+  <!-- Cocina -->
+  <rect x="230" y="10" width="160" height="90" fill="rgba(214,167,86,0.05)" stroke="#d6a756" stroke-width="1.5"/>
+  <text x="240" y="30" fill="#f2efe8" font-size="13">Cocina</text>
+  <!-- Dormitorio 1 -->
+  <rect x="230" y="100" width="160" height="90" fill="rgba(214,167,86,0.05)" stroke="#d6a756" stroke-width="1.5"/>
+  <text x="240" y="120" fill="#f2efe8" font-size="13">Dormitorio 1</text>
+  <!-- Baño -->
+  <rect x="10" y="170" width="100" height="120" fill="rgba(214,167,86,0.05)" stroke="#d6a756" stroke-width="1.5"/>
+  <text x="20" y="190" fill="#f2efe8" font-size="13">Baño</text>
+  <!-- Dormitorio 2 -->
+  <rect x="110" y="170" width="280" height="120" fill="rgba(214,167,86,0.05)" stroke="#d6a756" stroke-width="1.5"/>
+  <text x="120" y="190" fill="#f2efe8" font-size="13">Dormitorio 2</text>
+</svg>

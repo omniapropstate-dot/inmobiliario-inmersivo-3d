@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Edificio Mirador — Tour inmersivo</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;1,9..144,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css">
+<link rel="stylesheet" href="css/style.css">
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
+  }
+}
+</script>
+</head>
+<body>
+
+<header class="chrome">
+  <div class="wordmark">
+    <span class="wordmark__title">Edificio Mirador</span>
+    <span class="wordmark__stage" id="stage-label">Vista exterior</span>
+  </div>
+  <nav class="breadcrumb" id="breadcrumb" aria-label="Ubicación actual">
+    <button class="breadcrumb__item is-active" data-go="building">Edificio</button>
+  </nav>
+</header>
+
+<main>
+  <section id="stage-building" class="stage is-active">
+    <canvas id="building-canvas"></canvas>
+    <p class="hint" id="building-hint">Girá y hacé click en un piso para ver su planta</p>
+  </section>
+
+  <section id="stage-floorplan" class="stage">
+    <div class="floorplan-wrap">
+      <div class="floorplan-svg" id="floorplan-svg"></div>
+      <aside class="unit-panel" id="unit-panel">
+        <p class="unit-panel__empty">Pasá el cursor sobre un departamento</p>
+      </aside>
+    </div>
+    <button class="pill pill--back" id="btn-back-to-building">‹ Volver al edificio</button>
+  </section>
+
+  <section id="stage-interior" class="stage">
+    <div id="pano" class="pano"></div>
+    <button class="pill pill--back" id="btn-back-to-floorplan">‹ Volver a la planta</button>
+    <div class="room-switcher" id="room-switcher"></div>
+  </section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
